@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RS1 - Lecture 3 - Example 21</title>
+        <style>
+            body { margin: 0; font-family: Arial, Helvetica, sans-serif; }
+            input {width: 90%;}
+            #container {position: relative;}
+            #overlay {z-index: 1; width: 100%}
+
+            #loader {
+                border: 5px solid #f3f3f3; /* Light grey */
+                border-top: 5px solid #3d3d3d; /* Grey */
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                animation: spin 1s linear infinite;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 2;
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="loader"></div> 
+        <div id="container">
+            <div id="overlay">
+                <div>
+                    <input type="range" id="OA" name="OA" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OA">OA</label>
+                </div>
+                <div>
+                    <input type="range" id="OB" name="OB" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OB">OB</label>
+                </div>
+                <div>
+                    <input type="range" id="OC" name="OC" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OC">OC</label>
+                </div>
+                <div>
+                    <input type="range" id="OD" name="OD" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OD">OD</label>
+                </div>
+                <div>
+                    <input type="range" id="OE" name="OE" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OE">OE</label>
+                </div>
+                <div>
+                    <input type="range" id="OF" name="OF" min="0.0" max="1.0" value="0.1" step="0.1">
+                    <label for="OF">OF</label>
+                </div>
+
+            </div>
+        </div>
+        <script type="importmap">
+			{
+				"imports": {
+				  "three": "https://unpkg.com/three@0.147.0/build/three.module.js",
+				  "three/addons/": "https://unpkg.com/three@0.147.0/examples/jsm/",
+                  "rhino3dm": "https://unpkg.com/rhino3dm@0.15.0-beta/rhino3dm.module.js",
+                  "rhinocompute": "https://cdn.jsdelivr.net/npm/compute-rhino3d@0.13.0-beta/compute.rhino3d.module.js"
+				}
+			  }
+		  </script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
