@@ -28,4 +28,5 @@ you should be able to run your compute project in `http://www.datamgmt.com/{Your
 * [James](http://www.data-mgmt.com/james/example6/): 🌭 Working 
 * [Georgios](http://www.data-mgmt.com/georgios/example6/): 01010101
 * [Ray](http://www.data-mgmt.com/ray/): Let the games begin
+* [Ziqi](https://iaac-macad.github.io/assignment-03-ziqicui001/): example07
 
