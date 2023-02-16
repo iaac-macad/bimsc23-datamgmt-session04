@@ -244,7 +244,7 @@ function meshToThreejs(mesh, material) {
   
     // download the image
     var link = document.createElement( "a" );
-    link.download = "hotdog_JPEG.jpeg";
+    link.download = "ParametricHotDog.jpeg";
     link.href = dataURL;
     link.click();
   });
