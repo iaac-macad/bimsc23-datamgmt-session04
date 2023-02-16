@@ -29,7 +29,7 @@ rhino3dm().then(async m => {
 RhinoCompute.url = "http://35.157.191.153/"; //if debugging locally.
 RhinoCompute.apiKey = "macad2023" 
     
-    .
+
 
 
     // load a grasshopper file!
