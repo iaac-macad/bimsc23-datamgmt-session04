@@ -29,3 +29,4 @@ you should be able to run your compute project in `http://www.datamgmt.com/{Your
 * [Georgios](http://www.data-mgmt.com/georgios/example6/): 01010101
 * [Raymond](http://www.data-mgmt.com/raymond/): Let the games begin
 * [AhmedFaizal](http://www.data-mgmt.com/AhmedFaizal/example7_AF2): Test
+* [Sanjana](http://www.data-mgmt.com/Sanjana/): Lecture4
