@@ -1,1 +1,1 @@
-This example uses Rhino Compute Locally to solve a grasshopper definition.
+This example uses Rhino Compute locally to solve a grasshopper definition.
