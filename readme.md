@@ -30,4 +30,4 @@ you should be able to run your compute project in `http://www.datamgmt.com/{Your
 * [Raymond](http://www.data-mgmt.com/raymond/): Let the games begin
 * [AhmedFaizal](http://www.data-mgmt.com/AhmedFaizal/example7_AF2): Test
 * [Sanjana](http://www.data-mgmt.com/Sanjana/): Lecture4
-* [Mustapha](http://www.data-mgmt.com/Mustapha Nachar/): Cells
+* [Mustapha](http://www.data-mgmt.com/Mustapha_Nachar/): Cells
